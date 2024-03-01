@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-top: 30px;
+    padding-bottom: 74px;
+
+    min-height: 840px;
+    width: 100%;
+    background: linear-gradient(
+            180deg,
+            #242b33 11.98%,
+            rgba(45, 52, 60, 0.38) 51.04%,
+            #242b33 92.19%
+        ),
+        url('../../img/header/heder-bg.jpg'), lightgray 50% / cover no-repeat;
+    // background-image: url('../../header/heder-bg.jpg');
+}
+
+.header_top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title {
+    position: relative;
+    padding-bottom: 121px;
+
+    text-align: center;
+    font-size: 48px;
+    font-family: $font-accent;
+    color: $accent;
+    font-weight: 700;
+}
+
+.header_title-icon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+     transform: translateX(-50%, 0%);
+}
+.header_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
